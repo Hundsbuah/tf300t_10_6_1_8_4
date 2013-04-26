@@ -26,6 +26,7 @@
 #include <linux/module.h>
 #include <linux/moduleparam.h>
 #include <mach/board-cardhu-misc.h>
+#include <mach/hundsbuah.h>
 
 #include "fuse.h"
 
@@ -553,8 +554,8 @@ int tegra_package_id(void)
  * latter is resolved by the dvfs code)
  */
 static const int cpu_speedo_nominal_millivolts[] =
-/* speedo_id 0,    1,    2,    3,    4,    5,    6,    7,    8,   9,  10,  11,   12,    13,  14,  15 */
-	{ 1125, 1150, 1150, 1150, 1237, 1237, 1237, 1150, 1150, 1007, 916, 850, 1237, 1237, 950, 900};
+/* speedo_id 0,    1,    2,    3,    4,    5,    6,    7,    8,    9,  10,  11,  12,    13,  14,  15 */
+	{     1125, 1150, 1150, 1150, 1237, 1237, 1237, 1200, 1150, 1007, 916, 850, 1237, 1237, 950, 900};
 
 int tegra_cpu_speedo_mv(void)
 {
