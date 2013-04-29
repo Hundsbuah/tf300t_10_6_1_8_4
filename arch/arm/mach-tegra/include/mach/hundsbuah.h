@@ -21,12 +21,12 @@
 /*****************************/
 
 /* cap voltages */
-#define HUNDSBUAH_CPU_VOLTAGE_CAP         (1375)   /* mV */
+#define HUNDSBUAH_CPU_VOLTAGE_CAP         (1250)   /* mV */
 #define HUNDSBUAH_CORE_VOLTAGE_CAP        (1350)   /* mV */
 
 /* max and min voltages */
 #define HUNDSBUAH_MIN_CPU_VOLTAGE         (600)    /* mV */
-#define HUNDSBUAH_MAX_CPU_VOLTAGE         (1350)   /* mV */
+#define HUNDSBUAH_MAX_CPU_VOLTAGE         (1237)   /* mV */
 
 #define HUNDSBUAH_MIN_CORE_VOLTAGE        (850)    /* mV */
 #define HUNDSBUAH_MAX_CORE_VOLTAGE        (1300)   /* mV */
@@ -42,12 +42,12 @@
 #define HUNDSBUAH_CPU_LP_FREQUENCY_CAP    (620)    /* MHz */
 
 /* cap frequencys */
-#define HUNDSBUAH_CPU_FREQUENCY_CAP       (1500)   /* MHz */
+#define HUNDSBUAH_CPU_FREQUENCY_CAP       (1600)   /* MHz */
 #define HUNDSBUAH_CORE_FREQUENCY_CAP      (520)    /* MHz */
 #define HUNDSBUAH_HOST1X_FREQUENCY_CAP    (300)    /* MHz */
 
 /* max. frequencys */
-#define HUNDSBUAH_MAX_CPU_FREQUENCY       (1500)   /* MHz */
+#define HUNDSBUAH_MAX_CPU_FREQUENCY       (1600)   /* MHz */
 #define HUNDSBUAH_MAX_CORE_FREQUENCY      (520)    /* MHz */
 #define HUNDSBUAH_MAX_HOST1X_FREQUENCY    (267)    /* MHz */
 

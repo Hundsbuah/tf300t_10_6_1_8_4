@@ -555,7 +555,22 @@ int tegra_package_id(void)
  */
 static const int cpu_speedo_nominal_millivolts[] =
 /* speedo_id 0,    1,    2,    3,    4,    5,    6,    7,    8,    9,  10,  11,  12,    13,  14,  15 */
-	{     1125, 1150, 1150, 1150, 1237, 1237, 1237, 1200, 1150, 1007, 916, 850, 1237, 1237, 950, 900};
+	{       1125, /* speedo_id 0 */
+			1150, /* speedo_id 1 */
+			1150, /* speedo_id 2 */
+			1150, /* speedo_id 3 */
+			1237, /* speedo_id 4 */
+			1237, /* speedo_id 5 */
+			1237, /* speedo_id 6 */
+			HUNDSBUAH_CPU_VOLTAGE_CAP, /* speedo_id 7 */
+			1150, /* speedo_id 8 */
+			1007, /* speedo_id 9 */
+			916, /* speedo_id 10 */
+			850, /* speedo_id 11 */
+			1237, /* speedo_id 12 */
+			1237, /* speedo_id 13 */
+			950, /* speedo_id 14 */
+			900}; /* speedo_id 15 */
 
 int tegra_cpu_speedo_mv(void)
 {
