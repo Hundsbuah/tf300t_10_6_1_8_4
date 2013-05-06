@@ -4936,7 +4936,7 @@ static struct cpufreq_frequency_table freq_table_1p6GHz[] = {
 	{11, 1300000 },
 	{12, 1400000 },
 	{13, 1500000 },
-	{14, 1500000 },
+	{14, 1600000 },
 	{15, CPUFREQ_TABLE_END },
 };
 

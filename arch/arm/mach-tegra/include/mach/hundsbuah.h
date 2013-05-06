@@ -42,12 +42,12 @@
 #define HUNDSBUAH_CPU_LP_FREQUENCY_CAP    (620)    /* MHz */
 
 /* cap frequencys */
-#define HUNDSBUAH_CPU_FREQUENCY_CAP       (1600)   /* MHz */
+#define HUNDSBUAH_CPU_FREQUENCY_CAP       (1700)   /* MHz */
 #define HUNDSBUAH_CORE_FREQUENCY_CAP      (520)    /* MHz */
 #define HUNDSBUAH_HOST1X_FREQUENCY_CAP    (300)    /* MHz */
 
 /* max. frequencys */
-#define HUNDSBUAH_MAX_CPU_FREQUENCY       (1600)   /* MHz */
+#define HUNDSBUAH_MAX_CPU_FREQUENCY       (1700)   /* MHz */
 #define HUNDSBUAH_MAX_CORE_FREQUENCY      (520)    /* MHz */
 #define HUNDSBUAH_MAX_HOST1X_FREQUENCY    (267)    /* MHz */
 
